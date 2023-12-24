@@ -21,16 +21,16 @@ function Navbar() {
          initial='hidden'
          whileInView='show'
       >
-         <div className='container mx-auto px-8 lg:px-20 py-8 relative'>
+         <div className='container relative px-8 py-8 mx-auto lg:px-20'>
             <div className="absolute w-[50%] inset-0 gradient-01" />
-            <div className='flex justify-between items-center'>
+            <div className='flex items-center justify-between'>
                {/* eslint-disable-next-line @next/next/no-img-element */}
-               <img className='w-[24px] h-[24px] object-contain' src="/search.svg" alt="search" />
-               <h1 className='font-extrabold text-2xl lg:text-4xl uppercase text-white'>
+               <img className='w-[24px] h-[24px] object-contain' src="./search.svg" alt="search" />
+               <h1 className='text-2xl font-extrabold text-white uppercase lg:text-4xl'>
                   metaversus
                </h1>
                {/* eslint-disable-next-line @next/next/no-img-element */}
-               <img className='w-[24px] h-[24px] object-contain' src="/menu.svg" alt="menu" />
+               <img className='w-[24px] h-[24px] object-contain' src="./menu.svg" alt="menu" />
             </div>
          </div>
       </motion.nav>

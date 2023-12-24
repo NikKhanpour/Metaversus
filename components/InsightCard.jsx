@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 function InsightCard({ imgUrl, title, subtitle, index }) {
    return (
       <motion.div
-         className='mt-12 flex flex-col items-center justify-between lg:flex-row'
+         className='flex flex-col items-center justify-between mt-12 lg:flex-row'
          variants={{
             hidden: { x: -200, opacity: 0 },
             show: {
@@ -32,7 +32,7 @@ function InsightCard({ imgUrl, title, subtitle, index }) {
          </div>
          <div className='mt-4 cursor-pointer rounded-full border-[2px] p-[17px] lg:mt-0'>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/arrow.svg" alt="arrow" />
+            <img src="./arrow.svg" alt="arrow" />
          </div>
       </motion.div>
    )

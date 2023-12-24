@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 function NewFeatures() {
    return (
-      <div className='flex flex-col lg:flex-row items-center mt-52 container mx-auto px-8 lg:ps-32 lg:px-24'>
+      <div className='container flex flex-col items-center px-8 mx-auto lg:flex-row mt-52 lg:ps-32 lg:px-24'>
          <motion.div className='flex flex-col'
             variants={{
                hidden: { x: -200, opacity: 0 },
@@ -29,7 +29,7 @@ function NewFeatures() {
                         <img
                            alt="icon"
                            src={item.imgUrl}
-                           className='w-1/2 h-1/2 object-contain'
+                           className='object-contain w-1/2 h-1/2'
                         />
                      </div>
                      <h4 className='text-[24px] font-bold text-white'>
@@ -61,7 +61,7 @@ function NewFeatures() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
                alt="whats-new"
-               src="/whats-new.png"
+               src="./whats-new.png"
                className='w-full h-full lg:w-[70%] lg:h-[70%] object-contain mx-auto'
             />
          </motion.div>

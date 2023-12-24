@@ -45,10 +45,10 @@ function ExploreCard2({ id, index, imgUrl, title, active, setActive }) {
                   }
                }
             }}
-            className='absolute flex flex-col space-y-4 items-start bottom-0 px-8 z-20'>
+            className='absolute bottom-0 z-20 flex flex-col items-start px-8 space-y-4'>
             <div id='item' className='flex items-center justify-center w-[60px] h-[60px] rounded-[20px] glassmorphism'>
                {/* eslint-disable-next-line @next/next/no-img-element */}
-               <img className='w-1/2 h-1/2 object-contain' src="/headset.svg" alt="headset" />
+               <img className='object-contain w-1/2 h-1/2' src="./headset.svg" alt="headset" />
             </div>
             <p id='item' className='text-[16px] font-normal text-white'>ENTER METAVERSE</p>
             <h2 id='item' className='text-[32px] text-white text-bold pb-6'>

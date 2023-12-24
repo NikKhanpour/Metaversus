@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 function GetStarted() {
    return (
-      <div className='flex flex-col lg:flex-row items-center container mx-auto px-8 lg:px-24 mt-52'>
+      <div className='container flex flex-col items-center px-8 mx-auto lg:flex-row lg:px-24 mt-52'>
          <motion.div
             variants={{
                hidden: {
@@ -25,10 +25,10 @@ function GetStarted() {
             whileInView='show'
          >
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className='w-full h-full lg:w-[70%] lg:h-[70%] object-contain mx-auto' src="/get-started.png" alt="get-started" />
+            <img className='w-full h-full lg:w-[70%] lg:h-[70%] object-contain mx-auto' src="./get-started.png" alt="get-started" />
          </motion.div>
          <motion.div
-            className='flex flex-col items-center lg:items-start justify-center space-y-6'
+            className='flex flex-col items-center justify-center space-y-6 lg:items-start'
             variants={{
                hidden: { x: 200, opacity: 0 },
                show: { x: 0, opacity: 1, transition: { type: 'spring', stiffness: 400, damping: 80 } }

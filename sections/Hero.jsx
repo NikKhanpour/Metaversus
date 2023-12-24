@@ -67,9 +67,9 @@ function Hero() {
                className='relative w-full xl:ps-32 -top-12'
             >
                {/* eslint-disable-next-line @next/next/no-img-element */}
-               <img className='w-full h-[350px] object-cover rounded-tl-[140px] rounded-bl-[30px]' src="/cover.png" alt="cover" />
+               <img className='w-full h-[350px] object-cover rounded-tl-[140px] rounded-bl-[30px]' src="./cover.png" alt="cover" />
                {/* eslint-disable-next-line @next/next/no-img-element */}
-               <img className='absolute z-10 w-[155px] h-[155px] right-10 lg:right-32 -bottom-20' src="/stamp.png" alt="stamp" />
+               <img className='absolute z-10 w-[155px] h-[155px] right-10 lg:right-32 -bottom-20' src="./stamp.png" alt="stamp" />
             </motion.div>
          </div>
       </section>

@@ -44,7 +44,7 @@ function ExploreCard({ id, imgUrl, title, index, active, setActive }) {
          >
             <div className='flex items-center justify-center w-[60px] h-[60px] rounded-[20px] glassmorphism'>
                {/* eslint-disable-next-line @next/next/no-img-element */}
-               <img className='w-1/2 h-1/2 object-contain' src="/headset.svg" alt="headset" />
+               <img className='object-contain w-1/2 h-1/2' src="./headset.svg" alt="headset" />
             </div>
             <p className='lg:pb-12 text-white text-[16px] font-[400px]'>ENTER METAVERSE</p>
             <p className='lg:absolute lg:bottom-4 text-white text-[32px] font-bold'>{title}</p>

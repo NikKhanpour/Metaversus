@@ -33,7 +33,7 @@ function Footer() {
                   whileTap={{ scale: 0.9, transition: { type: 'spring', stiffness: 400, damping: 55 } }}
                   className='flex items-center px-8 py-5 mt-8 space-x-3 bg-blue-600 rounded-full lg:mt-0'
                >
-                  <img className='w-6 h-6' src="/headset.svg" alt="headset" />
+                  <img className='w-6 h-6' src="./headset.svg" alt="headset" />
                   <p className='text-[16px] font-normal tracking-[0.08px] text-white'>
                      ENTER METAVERSE
                   </p>
@@ -49,10 +49,10 @@ function Footer() {
                Copyright © 2022 - 2023 Metaversus. All rights reserved.
             </p>
             <div className='flex items-center space-x-[30px]'>
-               <img className='w-6 h-6' src="/twitter.svg" alt="twitter" />
-               <img className='w-6 h-6' src="/linkedin.svg" alt="linkedin" />
-               <img className='w-6 h-6' src="/instagram.svg" alt="instagram" />
-               <img className='w-6 h-6' src="/facebook.svg" alt="facebook" />
+               <img className='w-6 h-6' src="./twitter.svg" alt="twitter" />
+               <img className='w-6 h-6' src="./linkedin.svg" alt="linkedin" />
+               <img className='w-6 h-6' src="./instagram.svg" alt="instagram" />
+               <img className='w-6 h-6' src="./facebook.svg" alt="facebook" />
             </div>
          </div>
       </motion.div>

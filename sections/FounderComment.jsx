@@ -4,8 +4,8 @@ import React from 'react'
 
 function FounderComment() {
    return (
-      <div className='container mx-auto px-8 lg:px-24 mt-52'>
-         <div className='flex flex-col lg:flex-row items-center justify-center lg:space-x-8'>
+      <div className='container px-8 mx-auto lg:px-24 mt-52'>
+         <div className='flex flex-col items-center justify-center lg:flex-row lg:space-x-8'>
             <div className='lg:w-[370px] lg:h-[610px] border border-opacity-50 backdrop-blur-sm border-white rounded-[32px] p-[30px] lg:pt-[163px]'>
                <h3 className='text-[32px] font-bold -tracking-[0.64px] text-white'>
                   Samantha
@@ -20,8 +20,8 @@ function FounderComment() {
                </p>
             </div>
             <div className='relative h-[400px] lg:w-[768px] lg:h-[610px] rounded-[40px] mt-6 lg:mt-0'>
-               <img className='w-full h-full object-cover rounded-[40px]' src="/planet-09.png" alt="planet" />
-               <img className='absolute top-[10%] -left-[12%] w-[155px] h-[155px] -rotate-[20deg] ' src="/stamp.png" alt="stamp" />
+               <img className='w-full h-full object-cover rounded-[40px]' src="./planet-09.png" alt="planet" />
+               <img className='absolute top-[10%] -left-[12%] w-[155px] h-[155px] -rotate-[20deg] ' src="./stamp.png" alt="stamp" />
             </div>
          </div>
       </div>
